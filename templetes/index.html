@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>LOGIN X-NODE.js-EXPRESS</title>
+</head>
+<body style="background-color: darkslategray;">
+    <div style="margin: 24px;">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Login X</a>
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/contacto">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="/perfil">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron" style="padding: 50px;">
+                <h1>LOGIN X</h1>
+                <p>Suscribete</p>
+                <form method="POST" action="/">
+                    <div class="row" style="border: 2px solid color=rgb(126, 124, 124); border-radius: 12px; box-shadow: 0 0 10px rgba(0, 0, 0, .7); display: flex; justify-content: space-between; flex-direction: column; flex-wrap: wrap;">
+
+                        <div class="col-sm-3" style="align-self: center;" >
+                            <label>Usuario</label>
+                            <input type="text" name="first_name" class="form-control" id="nombre" placeholder="Nombre de Usuario">
+                        </div>
+    
+                        <div class="col-sm-3" style="align-self: center;" >
+                            <label>Correo</label>
+                            <input type="email" name="email_address" class="form-control" id="correo" placeholder="Correo Electronico">
+                        </div><br>
+    
+                        <div class="col-sm-3" style="align-self: center;" >
+                            <input type="submit" name="submit_button" class="btn btn-primary" id="" value="Registrarse">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+
+    </div>
+</body>
+</html>
